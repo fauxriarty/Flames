@@ -16,9 +16,13 @@ def flames(n):
 
     while len(s)>1:
         if n%6!=0:
-            t= n%6 -1
+            t= n%6
+            if t>len(s):
+                t=t%len(s) -1
+            else:
+                t=t-1
         else:
-            t=5
+            t = 5
         s.remove(s[t])
     print(s[0])
 
