@@ -1,3 +1,1 @@
-l=['Friends','Lovers','Acquaintances','Marriage','Enemies','Siblings']
-
-def flames(name1,name2):
+def flames(s1,s2):
