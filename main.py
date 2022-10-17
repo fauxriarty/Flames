@@ -15,14 +15,14 @@ def flames(n):
     s= ['Friends', 'Lovers', 'Acquaintances', 'Marriage', 'Enemies', 'Siblings']
 
     while len(s)>1:
-        if n%6!=0:
-            t= n%6
+        if n%len(s)!=0:
+            t= n%len(s)
             if t>len(s):
                 t=t%len(s) -1
             else:
                 t=t-1
         else:
-            t = 5
+            t = len(s)-1
         s.remove(s[t])
     print(s[0])
 
