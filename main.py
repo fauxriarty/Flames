@@ -8,9 +8,6 @@ s1=''.join(i for i in name1 if i not in name2 )
 s2=''.join(i for i in name2 if i not in name1)
 n=len(s1)+len(s2)
 
-
-
-
 def flames(n):
     s= ['Friends', 'Lovers', 'Acquaintances', 'Marriage', 'Enemies', 'Siblings']
 
