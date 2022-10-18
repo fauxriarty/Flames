@@ -1,7 +1,7 @@
 import os
 
 name1= input("Enter your name: ")
-name2= input("Enter the name of the person you want to check your flames determined relationship with: ")
+name2= input("Enter your crush's name: ")
 
 #removing the common characters:
 s1=''.join(i for i in name1 if i not in name2 )
